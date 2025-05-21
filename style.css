@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 :root {
-    --cor-principal: #6E859F;
+    --cor-principal: #526b88;
     --cor-secundaria: #284260;
-    --cor-destaque: #C92BFC;
+    --cor-destaque: #fbff00;
 }
 
 body {
@@ -31,30 +31,23 @@ a:hover{
 
 .cabecalho {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #FFFFFF;
+  align-items: center; 
+  justify-content: space-between; 
   padding: 10px;
 }
 
+.cabecalho img {
+  width: 120px; 
+  height: 80px; 
+  object-fit: contain; 
+}
+
 .titulo {
-  font-weight: bold;
-  font-size: 24px;
-  margin: 0;
+  flex-grow: 1; 
+  text-align: center;
+  margin: 0 15px;
 }
 
-.imagem-esquerda, .imagem-direita {
-  width: 100px;
-  height: 100px;
-}
-
-.imagem-esquerda {
-  margin-right: auto;
-}
-
-.imagem-direita {
-  margin-left: auto;
-}
 .paragrafo {
   text-align: center;
   font-weight: bold;
